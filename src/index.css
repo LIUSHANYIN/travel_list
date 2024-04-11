@@ -16,7 +16,11 @@ const initialItems = [
 html {
   font-size: 62.5%;
 }
-
+.box::-webkit-scrollbar,
+.list::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
 body {
   font-size: 2.4rem;
   font-family: sans-serif;
